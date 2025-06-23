@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Projects</title>
+        <style>
+            body{
+                background:linear-gradient(to right,#89f7fe, #66a6ff);
+            }
+            h2{
+                text-align:center;
+                font-size:30px;
+            }
+            #navbar ul{
+    margin-top:20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background:white;
+    display: flex;
+    justify-content: center; 
+    gap: 50px;
+    padding: 15px;
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    color:#1e3c72;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size:20px;
+  }
+  
+  #navbar li a:hover {
+    background-color: #e8eaf6;
+    color: #000;
+  }
+  .project-card {
+  background-color: #f0f4f8;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-card p:first-child {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.project-card p:nth-child(2) {
+  font-weight: 500;
+  color: #6c5ce7;
+  margin-bottom: 10px;
+}
+
+.project-card p:nth-child(3),
+.project-card p:nth-child(4) {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a href="task4.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <p>Weather Forecast Web Application</p>
+            <p>Tech: Html , CSS, Javascript</p>
+            <p>This project is a simple web application that can display the 
+                weather forecast of any region input by the user with the help
+                of a open weather api.</p>
+            <p>The weather forecast includes the temperature and also the condition of that region</p>
+        </div>
+        <div class="project-card">
+          <p>TicTacToae Web Application</p>
+          <p>Tech:Html,CSS, Javascript</p>
+          <p>This Project is a TicTacToe game designed for two players in the same device.</p>
+          <p>It has a very simple UI and also has the feature of playing against AI}</p>
+        </div>
+      </body}
+</html>
